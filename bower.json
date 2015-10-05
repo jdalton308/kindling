@@ -1,0 +1,25 @@
+{
+  "name": "joedalton.io",
+  "version": "0.0.0",
+  "authors": [
+    "Joe Dalton <joe@sequence.com>"
+  ],
+  "description": "Personal portfolio",
+  "main": "",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "homepage": "joedalton.io",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize-css": "normalize.css#~3.0.3"
+  }
+}

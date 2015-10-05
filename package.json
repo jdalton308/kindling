@@ -1,0 +1,23 @@
+{
+  "name": "joedalton.io",
+  "version": "1.0.0",
+  "description": "Portfolio website for Joe Dalton",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/jdalton308/joedalton.git"
+  },
+  "author": "Joe Dalton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/jdalton308/joedalton/issues"
+  },
+  "homepage": "https://gitlab.com/jdalton308/joedalton#README",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-less": "^3.0.3"
+  }
+}
