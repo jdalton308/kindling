@@ -1,16 +1,16 @@
 {
-  "name": "joedalton.io",
+  "name": "",
   "version": "0.0.0",
   "authors": [
-    "Joe Dalton <joe@sequence.com>"
+    "Joe Dalton <jdalton308@yahoo.com>"
   ],
-  "description": "Personal portfolio",
+  "description": "",
   "main": "",
   "moduleType": [
     "globals"
   ],
   "license": "MIT",
-  "homepage": "joedalton.io",
+  "homepage": "",
   "private": true,
   "ignore": [
     "**/.*",
