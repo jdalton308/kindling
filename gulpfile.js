@@ -1,12 +1,12 @@
 
 var gulp = require('gulp');
 var gutil = require('gulp-util');
-var less = require('gulp-less');
+var sass = require('gulp-sass');
 var concat = require('gulp-concat');
 var uglify = require('gulp-uglify');
 
 var styleFiles = [
-        'css/less/main.less'
+        'css/scss/main.scss'
     ];
 var jsFiles = [
 		'node_modules/jquery/dist/jquery.min.js',
@@ -31,7 +31,7 @@ gulp.task('scripts', function(){
 });
 
 gulp.task('watch', function(){
-    gulp.watch(['css/less/*.less'], ['styles']);
+    gulp.watch(['css/scss/*.scss'], ['styles']);
     gulp.watch(['js/src/*.js'], ['scripts']);
 });
 
