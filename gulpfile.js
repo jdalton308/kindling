@@ -12,17 +12,17 @@ var styleFiles = [
     ];
 var jsFiles = [
 		'node_modules/jquery/dist/jquery.min.js',
-		'./src/js/*/**.js'
+		'./src/js/**/*.js'
 	];
 var htmlFiles = [
-		'./src/html/*/**.html'
+		'./src/html/**/*.html'
 ]
 
 
 gulp.task('styles', function() {
     gulp.src(styleFiles)
         .pipe(concat('main.css'))
-        .pipe(less())
+        .pipe(sass())
         .pipe(gulp.dest('./build/css/'));
 });
 
@@ -51,9 +51,9 @@ gulp.task('server', function(){
 });
 
 gulp.task('watch', function(){
-    gulp.watch(['./src/css/scss/*/**.scss'], ['styles']);
-    gulp.watch(['./src/js/*/**.js'], ['scripts']);
-    gulp.watch(['./src/html/*/**.html'], ['html'])
+    gulp.watch(['./src/css/scss/**/*.scss'], ['styles']);
+    gulp.watch(['./src/js/**/*.js'], ['scripts']);
+    gulp.watch(['./src/html/**/*.html'], ['html'])
 });
 
 gulp.task('build', ['styles', 'scripts', 'html']);
