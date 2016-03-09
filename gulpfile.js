@@ -9,7 +9,7 @@ var styleFiles = [
         'css/less/main.less'
     ];
 var jsFiles = [
-		'bower_components/jquery/dist/jquery.min.js',
+		'node_modules/jquery/dist/jquery.min.js',
 		'js/src/main.js'
 	];
 
